@@ -49,6 +49,13 @@ This project is a modular C++ e-commerce system developed as part of the Fawry i
 
 ![image](https://github.com/user-attachments/assets/70efff22-678d-4f3d-8407-14667c3830da)
 
+**Insufficient balance Handling:**
+
+![image](https://github.com/user-attachments/assets/ecdeccbd-5892-423c-b54b-4dbc4c2f1779)
+
+**Insufficient stock Handling:**
+
+![image](https://github.com/user-attachments/assets/283573eb-b9d7-4ab1-bc3b-cd669425534d)
 
 
 
