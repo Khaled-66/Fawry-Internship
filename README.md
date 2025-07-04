@@ -59,8 +59,6 @@ This project is a modular C++ e-commerce system developed as part of the Fawry i
 
 
 
-> To use this, create a folder named `images/` and place your `.png`, `.jpg`, or `.gif` files there.
-
 ---
 
 ## ⚙️ Build Instructions
