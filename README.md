@@ -1,6 +1,6 @@
 # Fawry Internship Task – E-commerce System 🛒
 
-This project is a modular C++ e-commerce system developed as part of the Fawry internship application.
+A modular and extensible C++ application for managing an e-commerce platform. It models products, customers, and shipping logic using clean object-oriented design and principles like SOLID and common design patterns.
 
 ---
 
@@ -35,6 +35,16 @@ This project is a modular C++ e-commerce system developed as part of the Fawry i
 │
 └── ...
 ```
+---
+## SOLID Principles
+| Principle                     | Application                                                                 |
+| ----------------------------- | --------------------------------------------------------------------------- |
+| **S** - Single Responsibility | Each class/module has a clear, single purpose                               |
+| **O** - Open/Closed           | Easily add new product types without modifying existing code                |
+| **L** - Liskov Substitution   | Subtypes like `ExpiringProduct` or `ShippableProduct` can replace `Product` |
+| **I** - Interface Segregation | (Partially) Product interface kept minimal and extendable                   |
+| **D** - Dependency Inversion  |                                     -        |
+
 
 ---
 
