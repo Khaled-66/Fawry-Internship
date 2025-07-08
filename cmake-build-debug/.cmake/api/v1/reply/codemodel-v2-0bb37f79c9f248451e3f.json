@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "fawryTask",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,9 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "fawryTask::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fawryTask-Debug-8accc09bebfb2c944dee.json",
-					"name" : "fawryTask",
+					"id" : "task1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task1-Debug-46f0fb7aefc231007e94.json",
+					"name" : "task1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task2-Debug-5d30d4ac2cc0ee80ac5c.json",
+					"name" : "task2",
 					"projectIndex" : 0
 				}
 			]

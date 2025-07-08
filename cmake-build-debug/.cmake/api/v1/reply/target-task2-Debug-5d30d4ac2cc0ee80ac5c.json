@@ -1,0 +1,253 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "task2.exe"
+		},
+		{
+			"path" : "task2.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "D:/fawryTask/Task1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/fawryTask/Task1/core"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/fawryTask/Task1/core/Customer"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/fawryTask/Task1/core/Product"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/fawryTask/Task1/core/Shipping"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/fawryTask/Task1/main"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/fawryTask/Task1/Product_Types"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/fawryTask/Task1/Product_Types/Expiring"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/fawryTask/Task1/Product_Types/Shippable"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/fawryTask/Task1/Product_Types/Shippable_and_Expiring"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Book"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Book_Types"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Book_Types/DemoBook"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Book_Types/PaperBook"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Book_Types/EBook"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Services"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Store"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Test"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/main"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"id" : "task2::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "task2",
+	"nameOnDisk" : "task2.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Task2/Book/Book.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Task2/Book_Types/DemoBook/demo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Task2/Book_Types/PaperBook/PaperBook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Task2/Book_Types/EBook/EBook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Task2/Store/inventory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Task2/Test/QuantumBookstoreFullTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Task2/main/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

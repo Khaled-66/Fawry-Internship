@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "fawryTask.exe"
+			"path" : "task1.exe"
 		},
 		{
-			"path" : "fawryTask.pdb"
+			"path" : "task1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,13 +28,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 24,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 10,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
 				"parent" : 0
 			}
 		]
@@ -92,6 +98,46 @@
 				{
 					"backtrace" : 2,
 					"path" : "D:/fawryTask/Task1/Product_Types/Shippable_and_Expiring"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Book"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Book_Types"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Book_Types/DemoBook"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Book_Types/PaperBook"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Book_Types/EBook"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Services"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Store"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/Test"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/fawryTask/Task2/main"
 				}
 			],
 			"language" : "CXX",
@@ -115,7 +161,7 @@
 			]
 		}
 	],
-	"id" : "fawryTask::@6890427a1f51a3e7e1df",
+	"id" : "task1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -135,8 +181,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "fawryTask",
-	"nameOnDisk" : "fawryTask.exe",
+	"name" : "task1",
+	"nameOnDisk" : "task1.exe",
 	"paths" : 
 	{
 		"build" : ".",

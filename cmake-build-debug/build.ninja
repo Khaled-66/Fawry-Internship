@@ -41,80 +41,156 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/fawryTask/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target fawryTask
+# Object build statements for EXECUTABLE target task1
 
 
 #############################################
-# Order-only phony target for fawryTask
+# Order-only phony target for task1
 
-build cmake_object_order_depends_target_fawryTask: phony || CMakeFiles/fawryTask.dir
+build cmake_object_order_depends_target_task1: phony || CMakeFiles/task1.dir
 
-build CMakeFiles/fawryTask.dir/Task1/core/Customer/Customer.cpp.obj: CXX_COMPILER__fawryTask_Debug D$:/fawryTask/Task1/core/Customer/Customer.cpp || cmake_object_order_depends_target_fawryTask
-  DEP_FILE = CMakeFiles\fawryTask.dir\Task1\core\Customer\Customer.cpp.obj.d
+build CMakeFiles/task1.dir/Task1/core/Customer/Customer.cpp.obj: CXX_COMPILER__task1_Debug D$:/fawryTask/Task1/core/Customer/Customer.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\Task1\core\Customer\Customer.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring
-  OBJECT_DIR = CMakeFiles\fawryTask.dir
-  OBJECT_FILE_DIR = CMakeFiles\fawryTask.dir\Task1\core\Customer
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\Task1\core\Customer
 
-build CMakeFiles/fawryTask.dir/Task1/core/Product/Product.cpp.obj: CXX_COMPILER__fawryTask_Debug D$:/fawryTask/Task1/core/Product/Product.cpp || cmake_object_order_depends_target_fawryTask
-  DEP_FILE = CMakeFiles\fawryTask.dir\Task1\core\Product\Product.cpp.obj.d
+build CMakeFiles/task1.dir/Task1/core/Product/Product.cpp.obj: CXX_COMPILER__task1_Debug D$:/fawryTask/Task1/core/Product/Product.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\Task1\core\Product\Product.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring
-  OBJECT_DIR = CMakeFiles\fawryTask.dir
-  OBJECT_FILE_DIR = CMakeFiles\fawryTask.dir\Task1\core\Product
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\Task1\core\Product
 
-build CMakeFiles/fawryTask.dir/Task1/core/Shipping/ShippingService.cpp.obj: CXX_COMPILER__fawryTask_Debug D$:/fawryTask/Task1/core/Shipping/ShippingService.cpp || cmake_object_order_depends_target_fawryTask
-  DEP_FILE = CMakeFiles\fawryTask.dir\Task1\core\Shipping\ShippingService.cpp.obj.d
+build CMakeFiles/task1.dir/Task1/core/Shipping/ShippingService.cpp.obj: CXX_COMPILER__task1_Debug D$:/fawryTask/Task1/core/Shipping/ShippingService.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\Task1\core\Shipping\ShippingService.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring
-  OBJECT_DIR = CMakeFiles\fawryTask.dir
-  OBJECT_FILE_DIR = CMakeFiles\fawryTask.dir\Task1\core\Shipping
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\Task1\core\Shipping
 
-build CMakeFiles/fawryTask.dir/Task1/main/main.cpp.obj: CXX_COMPILER__fawryTask_Debug D$:/fawryTask/Task1/main/main.cpp || cmake_object_order_depends_target_fawryTask
-  DEP_FILE = CMakeFiles\fawryTask.dir\Task1\main\main.cpp.obj.d
+build CMakeFiles/task1.dir/Task1/main/main.cpp.obj: CXX_COMPILER__task1_Debug D$:/fawryTask/Task1/main/main.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\Task1\main\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring
-  OBJECT_DIR = CMakeFiles\fawryTask.dir
-  OBJECT_FILE_DIR = CMakeFiles\fawryTask.dir\Task1\main
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\Task1\main
 
-build CMakeFiles/fawryTask.dir/Task1/Product_Types/Expiring/ExpiringProduct.cpp.obj: CXX_COMPILER__fawryTask_Debug D$:/fawryTask/Task1/Product_Types/Expiring/ExpiringProduct.cpp || cmake_object_order_depends_target_fawryTask
-  DEP_FILE = CMakeFiles\fawryTask.dir\Task1\Product_Types\Expiring\ExpiringProduct.cpp.obj.d
+build CMakeFiles/task1.dir/Task1/Product_Types/Expiring/ExpiringProduct.cpp.obj: CXX_COMPILER__task1_Debug D$:/fawryTask/Task1/Product_Types/Expiring/ExpiringProduct.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\Task1\Product_Types\Expiring\ExpiringProduct.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring
-  OBJECT_DIR = CMakeFiles\fawryTask.dir
-  OBJECT_FILE_DIR = CMakeFiles\fawryTask.dir\Task1\Product_Types\Expiring
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\Task1\Product_Types\Expiring
 
-build CMakeFiles/fawryTask.dir/Task1/Product_Types/Shippable/ShippableProduct.cpp.obj: CXX_COMPILER__fawryTask_Debug D$:/fawryTask/Task1/Product_Types/Shippable/ShippableProduct.cpp || cmake_object_order_depends_target_fawryTask
-  DEP_FILE = CMakeFiles\fawryTask.dir\Task1\Product_Types\Shippable\ShippableProduct.cpp.obj.d
+build CMakeFiles/task1.dir/Task1/Product_Types/Shippable/ShippableProduct.cpp.obj: CXX_COMPILER__task1_Debug D$:/fawryTask/Task1/Product_Types/Shippable/ShippableProduct.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\Task1\Product_Types\Shippable\ShippableProduct.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring
-  OBJECT_DIR = CMakeFiles\fawryTask.dir
-  OBJECT_FILE_DIR = CMakeFiles\fawryTask.dir\Task1\Product_Types\Shippable
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\Task1\Product_Types\Shippable
 
-build CMakeFiles/fawryTask.dir/Task1/Product_Types/Shippable_and_Expiring/ShippableExpiringProduct.cpp.obj: CXX_COMPILER__fawryTask_Debug D$:/fawryTask/Task1/Product_Types/Shippable_and_Expiring/ShippableExpiringProduct.cpp || cmake_object_order_depends_target_fawryTask
-  DEP_FILE = CMakeFiles\fawryTask.dir\Task1\Product_Types\Shippable_and_Expiring\ShippableExpiringProduct.cpp.obj.d
+build CMakeFiles/task1.dir/Task1/Product_Types/Shippable_and_Expiring/ShippableExpiringProduct.cpp.obj: CXX_COMPILER__task1_Debug D$:/fawryTask/Task1/Product_Types/Shippable_and_Expiring/ShippableExpiringProduct.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\Task1\Product_Types\Shippable_and_Expiring\ShippableExpiringProduct.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring
-  OBJECT_DIR = CMakeFiles\fawryTask.dir
-  OBJECT_FILE_DIR = CMakeFiles\fawryTask.dir\Task1\Product_Types\Shippable_and_Expiring
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\Task1\Product_Types\Shippable_and_Expiring
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target fawryTask
+# Link build statements for EXECUTABLE target task1
 
 
 #############################################
-# Link the executable fawryTask.exe
+# Link the executable task1.exe
 
-build fawryTask.exe: CXX_EXECUTABLE_LINKER__fawryTask_Debug CMakeFiles/fawryTask.dir/Task1/core/Customer/Customer.cpp.obj CMakeFiles/fawryTask.dir/Task1/core/Product/Product.cpp.obj CMakeFiles/fawryTask.dir/Task1/core/Shipping/ShippingService.cpp.obj CMakeFiles/fawryTask.dir/Task1/main/main.cpp.obj CMakeFiles/fawryTask.dir/Task1/Product_Types/Expiring/ExpiringProduct.cpp.obj CMakeFiles/fawryTask.dir/Task1/Product_Types/Shippable/ShippableProduct.cpp.obj CMakeFiles/fawryTask.dir/Task1/Product_Types/Shippable_and_Expiring/ShippableExpiringProduct.cpp.obj
+build task1.exe: CXX_EXECUTABLE_LINKER__task1_Debug CMakeFiles/task1.dir/Task1/core/Customer/Customer.cpp.obj CMakeFiles/task1.dir/Task1/core/Product/Product.cpp.obj CMakeFiles/task1.dir/Task1/core/Shipping/ShippingService.cpp.obj CMakeFiles/task1.dir/Task1/main/main.cpp.obj CMakeFiles/task1.dir/Task1/Product_Types/Expiring/ExpiringProduct.cpp.obj CMakeFiles/task1.dir/Task1/Product_Types/Shippable/ShippableProduct.cpp.obj CMakeFiles/task1.dir/Task1/Product_Types/Shippable_and_Expiring/ShippableExpiringProduct.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\fawryTask.dir
+  OBJECT_DIR = CMakeFiles\task1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = fawryTask.exe
-  TARGET_IMPLIB = libfawryTask.dll.a
-  TARGET_PDB = fawryTask.exe.dbg
+  TARGET_FILE = task1.exe
+  TARGET_IMPLIB = libtask1.dll.a
+  TARGET_PDB = task1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task2
+
+
+#############################################
+# Order-only phony target for task2
+
+build cmake_object_order_depends_target_task2: phony || CMakeFiles/task2.dir
+
+build CMakeFiles/task2.dir/Task2/Book/Book.cpp.obj: CXX_COMPILER__task2_Debug D$:/fawryTask/Task2/Book/Book.cpp || cmake_object_order_depends_target_task2
+  DEP_FILE = CMakeFiles\task2.dir\Task2\Book\Book.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task2.dir
+  OBJECT_FILE_DIR = CMakeFiles\task2.dir\Task2\Book
+
+build CMakeFiles/task2.dir/Task2/Book_Types/DemoBook/demo.cpp.obj: CXX_COMPILER__task2_Debug D$:/fawryTask/Task2/Book_Types/DemoBook/demo.cpp || cmake_object_order_depends_target_task2
+  DEP_FILE = CMakeFiles\task2.dir\Task2\Book_Types\DemoBook\demo.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task2.dir
+  OBJECT_FILE_DIR = CMakeFiles\task2.dir\Task2\Book_Types\DemoBook
+
+build CMakeFiles/task2.dir/Task2/Book_Types/PaperBook/PaperBook.cpp.obj: CXX_COMPILER__task2_Debug D$:/fawryTask/Task2/Book_Types/PaperBook/PaperBook.cpp || cmake_object_order_depends_target_task2
+  DEP_FILE = CMakeFiles\task2.dir\Task2\Book_Types\PaperBook\PaperBook.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task2.dir
+  OBJECT_FILE_DIR = CMakeFiles\task2.dir\Task2\Book_Types\PaperBook
+
+build CMakeFiles/task2.dir/Task2/Book_Types/EBook/EBook.cpp.obj: CXX_COMPILER__task2_Debug D$:/fawryTask/Task2/Book_Types/EBook/EBook.cpp || cmake_object_order_depends_target_task2
+  DEP_FILE = CMakeFiles\task2.dir\Task2\Book_Types\EBook\EBook.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task2.dir
+  OBJECT_FILE_DIR = CMakeFiles\task2.dir\Task2\Book_Types\EBook
+
+build CMakeFiles/task2.dir/Task2/Store/inventory.cpp.obj: CXX_COMPILER__task2_Debug D$:/fawryTask/Task2/Store/inventory.cpp || cmake_object_order_depends_target_task2
+  DEP_FILE = CMakeFiles\task2.dir\Task2\Store\inventory.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task2.dir
+  OBJECT_FILE_DIR = CMakeFiles\task2.dir\Task2\Store
+
+build CMakeFiles/task2.dir/Task2/Test/QuantumBookstoreFullTest.cpp.obj: CXX_COMPILER__task2_Debug D$:/fawryTask/Task2/Test/QuantumBookstoreFullTest.cpp || cmake_object_order_depends_target_task2
+  DEP_FILE = CMakeFiles\task2.dir\Task2\Test\QuantumBookstoreFullTest.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task2.dir
+  OBJECT_FILE_DIR = CMakeFiles\task2.dir\Task2\Test
+
+build CMakeFiles/task2.dir/Task2/main/main.cpp.obj: CXX_COMPILER__task2_Debug D$:/fawryTask/Task2/main/main.cpp || cmake_object_order_depends_target_task2
+  DEP_FILE = CMakeFiles\task2.dir\Task2\main\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/fawryTask/Task1 -ID:/fawryTask/Task1/core -ID:/fawryTask/Task1/core/Customer -ID:/fawryTask/Task1/core/Product -ID:/fawryTask/Task1/core/Shipping -ID:/fawryTask/Task1/main -ID:/fawryTask/Task1/Product_Types -ID:/fawryTask/Task1/Product_Types/Expiring -ID:/fawryTask/Task1/Product_Types/Shippable -ID:/fawryTask/Task1/Product_Types/Shippable_and_Expiring -ID:/fawryTask/Task2 -ID:/fawryTask/Task2/Book -ID:/fawryTask/Task2/Book_Types -ID:/fawryTask/Task2/Book_Types/DemoBook -ID:/fawryTask/Task2/Book_Types/PaperBook -ID:/fawryTask/Task2/Book_Types/EBook -ID:/fawryTask/Task2/Services -ID:/fawryTask/Task2/Store -ID:/fawryTask/Task2/Test -ID:/fawryTask/Task2/main
+  OBJECT_DIR = CMakeFiles\task2.dir
+  OBJECT_FILE_DIR = CMakeFiles\task2.dir\Task2\main
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task2
+
+
+#############################################
+# Link the executable task2.exe
+
+build task2.exe: CXX_EXECUTABLE_LINKER__task2_Debug CMakeFiles/task2.dir/Task2/Book/Book.cpp.obj CMakeFiles/task2.dir/Task2/Book_Types/DemoBook/demo.cpp.obj CMakeFiles/task2.dir/Task2/Book_Types/PaperBook/PaperBook.cpp.obj CMakeFiles/task2.dir/Task2/Book_Types/EBook/EBook.cpp.obj CMakeFiles/task2.dir/Task2/Store/inventory.cpp.obj CMakeFiles/task2.dir/Task2/Test/QuantumBookstoreFullTest.cpp.obj CMakeFiles/task2.dir/Task2/main/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\task2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = task2.exe
+  TARGET_IMPLIB = libtask2.dll.a
+  TARGET_PDB = task2.exe.dbg
 
 
 #############################################
@@ -142,7 +218,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build fawryTask: phony fawryTask.exe
+build task1: phony task1.exe
+
+build task2: phony task2.exe
 
 # =============================================================================
 # Folder targets.
@@ -152,7 +230,7 @@ build fawryTask: phony fawryTask.exe
 #############################################
 # Folder: D:/fawryTask/cmake-build-debug
 
-build all: phony fawryTask.exe
+build all: phony task1.exe task2.exe
 
 # =============================================================================
 # Built-in targets

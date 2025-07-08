@@ -1,3 +1,4 @@
-D:/fawryTask/cmake-build-debug/CMakeFiles/fawryTask.dir
+D:/fawryTask/cmake-build-debug/CMakeFiles/task1.dir
+D:/fawryTask/cmake-build-debug/CMakeFiles/task2.dir
 D:/fawryTask/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/fawryTask/cmake-build-debug/CMakeFiles/rebuild_cache.dir
