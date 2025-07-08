@@ -3,28 +3,30 @@ project(fawryTask)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
-include_directories(core)
-include_directories(core/Customer)
-include_directories(core/Product)
-include_directories(core/Shipping)
-include_directories(main)
-include_directories(Product_Types)
-include_directories(Product_Types/Expiring)
-include_directories(Product_Types/Shippable)
-include_directories(Product_Types/Shippable_and_Expiring)
+# Base path
+set(TASK1_DIR Task1)
 
+# Include directories
+include_directories(
+        ${TASK1_DIR}
+        ${TASK1_DIR}/core
+        ${TASK1_DIR}/core/Customer
+        ${TASK1_DIR}/core/Product
+        ${TASK1_DIR}/core/Shipping
+        ${TASK1_DIR}/main
+        ${TASK1_DIR}/Product_Types
+        ${TASK1_DIR}/Product_Types/Expiring
+        ${TASK1_DIR}/Product_Types/Shippable
+        ${TASK1_DIR}/Product_Types/Shippable_and_Expiring
+)
+
+# Add executable and source files
 add_executable(fawryTask
-        core/Customer/Customer.cpp
-        core/Customer/Customer.h
-        core/Product/Product.cpp
-        core/Product/Product.h
-        core/Shipping/ShippingService.cpp
-        core/Shipping/ShippingService.h
-        main/main.cpp
-        Product_Types/Expiring/ExpiringProduct.cpp
-        Product_Types/Expiring/ExpiringProduct.h
-        Product_Types/Shippable/ShippableProduct.cpp
-        Product_Types/Shippable/ShippableProduct.h
-        Product_Types/Shippable_and_Expiring/ShippableExpiringProduct.cpp
-        Product_Types/Shippable_and_Expiring/ShippableExpiringProduct.h)
+        ${TASK1_DIR}/core/Customer/Customer.cpp
+        ${TASK1_DIR}/core/Product/Product.cpp
+        ${TASK1_DIR}/core/Shipping/ShippingService.cpp
+        ${TASK1_DIR}/main/main.cpp
+        ${TASK1_DIR}/Product_Types/Expiring/ExpiringProduct.cpp
+        ${TASK1_DIR}/Product_Types/Shippable/ShippableProduct.cpp
+        ${TASK1_DIR}/Product_Types/Shippable_and_Expiring/ShippableExpiringProduct.cpp
+        )
