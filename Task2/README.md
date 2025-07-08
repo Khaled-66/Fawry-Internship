@@ -11,11 +11,9 @@ This module implements an extensible online book store in C++. It supports multi
 - **PaperBook**
   - Has stock count
   - Can be shipped using the `ShippingService`
-
 - **EBook**
   - Has a file type (e.g., PDF, EPUB)
   - Delivered via email using the `MailService`
-
 - **DemoBook**
   - Not for sale
   - Exists for display purposes only
@@ -43,7 +41,7 @@ This module implements an extensible online book store in C++. It supports multi
 - Object-Oriented Design
   - Base class: `Book`
   - Derived classes: `PaperBook`, `EBook`, `DemoBook`
-- Open/Closed Principle
+- **Open/Closed Principle**
   - New book types can be added without modifying existing logic
 - Use of abstract interfaces and virtual methods
 - Console output is prefixed with:  
@@ -53,7 +51,43 @@ This module implements an extensible online book store in C++. It supports multi
 
 ## Folder Structure
 
-
+```
+QuantumBookstore/
+│
+├── Book/                           
+│   ├── Book.h
+│   └── Book.cpp
+│
+├── BookTypes/                     
+│   ├── PaperBook/
+│   │   ├── PaperBook.h
+│   │   └── PaperBook.cpp
+│   │
+│   ├── EBook/
+│   │   ├── EBook.h
+│   │   └── EBook.cpp
+│   │
+│   ├── DemoBook/
+│       ├── DemoBook.h
+│       └── DemoBook.cpp
+│
+├── Store/
+│   ├── QuantumBookstore.h
+│   └── QuantumBookstore.cpp
+│
+├── Services/
+│   ├── ShippingService.h
+│   └── MailService.h
+│
+│
+├── Test/
+|   ├── test.h
+│   └── test.cpp
+│
+├── build/                      
+├── README.md
+└── CMakeLists.txt / Makefile
+```
 
 ---
 
