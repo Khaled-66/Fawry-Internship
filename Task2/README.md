@@ -3,6 +3,15 @@
 This module implements an extensible online book store in C++. It supports multiple book types, inventory management, and book purchasing with simulated delivery mechanisms.
 
 ---
+## screens
+---
+![image](https://github.com/user-attachments/assets/247843e3-3e1e-4f89-a0b9-4c1a0911528f)
+---
+![image](https://github.com/user-attachments/assets/cba226bc-15d6-4764-b836-6814f7368e6c)
+---
+![image](https://github.com/user-attachments/assets/a26b2aa8-f0b6-4c07-be0c-e64fc3f23c02)
+---
+
 
 ## Features
 
