@@ -81,8 +81,8 @@ QuantumBookstore/
 │       └── DemoBook.cpp
 │
 ├── Store/
-│   ├── QuantumBookstore.h
-│   └── QuantumBookstore.cpp
+│   ├── Inventory.h
+│   └── Inventory.cpp
 │
 ├── Services/
 │   ├── ShippingService.h
@@ -90,8 +90,8 @@ QuantumBookstore/
 │
 │
 ├── Test/
-|   ├── test.h
-│   └── test.cpp
+|   ├── QuantumBookstoreFullTest.h
+│   └── QuantumBookstoreFullTest.cpp
 │
 ├── build/                      
 ├── README.md
