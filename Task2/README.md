@@ -92,10 +92,9 @@ QuantumBookstore/
 ├── Test/
 |   ├── QuantumBookstoreFullTest.h
 │   └── QuantumBookstoreFullTest.cpp
-│
-├── build/                      
-├── README.md
-└── CMakeLists.txt / Makefile
+│                     
+|_ README.md
+
 ```
 
 ---
